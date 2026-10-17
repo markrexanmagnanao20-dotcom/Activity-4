@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2ff;
+    color: #333;
+}
+
+header {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 36px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+.instructions {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto 15px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.instructions h2 {
+    color: darkblue;
+    margin-bottom: 10px;
+}
+
+.instructions p {
+    margin: 5px;
+}
+
+#map {
+    width: 90%;
+    max-width: 1000px;
+    height: 500px;
+    margin: 20px auto;
+    border: 3px solid darkblue;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.controls {
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto 40px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.controls p {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+#markerCount {
+    font-weight: bold;
+    color: darkblue;
+}
+
+button {
+    padding: 12px 25px;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: navy;
+}
